@@ -1,8 +1,45 @@
-
 .List {
     color: black;
     padding: 14px 26px 14px 13.2px;
-    background-color: pink;
+    background-color: white;
     border-radius: 25px;
     text-align: center;
     }
+
+
+.scanner {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.scanner video {
+     border-radius: 25px;
+     width: 50%;
+     align-content: center;
+     position: absolute;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlight-info {
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    .scanner video {
+        width: 80%;
+        margin: auto;
+    }
+    .scanner {
+        height: 300px;
+    }
+  }
