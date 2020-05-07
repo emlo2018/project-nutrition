@@ -1,13 +1,17 @@
 # Project Nutrition
 
-Replace this readme with your own information about your project.
+This site let's you scan a food products barcode and will let you know if the product is vegetarian, vegan and if there is palm oil in it.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The assignement was a remote pair-programming project by Emelie Lönnerheden, Johanna Rådén and Siri Gyllander.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+React
+Redux
+API (https://world.openfoodfacts.org/)
+React Hooks
+Thunks
 
 ## View it live
 
-https://compassionate-noyce-b3f7e0.netlify.app/
+https://happy-goldstine-1426d0.netlify.app
